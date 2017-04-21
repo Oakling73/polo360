@@ -1,0 +1,437 @@
+
+
+body{
+
+font-family: Helvetica, Arial, sans-serif;
+font-size:  14px;
+overflow-x: hidden;
+}
+
+.l_header{
+   height: 103px;    
+}
+.l_header::before{
+   content: "";
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+}
+.logo{
+   display: inline-block;
+   vertical-align: middle;
+   margin-top: 10px;
+}
+header img{
+	float: left;
+}
+.logo_text{
+   float: left;
+	font-family: "Gill Sans MT", sans-serif;
+	font-weight: bold;
+	font-size: 1.05em;
+	color: #666666;
+	text-align: center;
+   line-height: 16px;
+   margin: 10px 0 0 10px;
+   
+}
+.logo_text span{
+	font-size: 48px;
+	text-transform: uppercase;
+	line-height: 31px;
+}
+.logo_text span+span{
+	color:#be0f6a;
+}
+.logo_text span+span+span{
+	color:#0086ac;
+}
+.logo_text span+span+span+span{
+	color:#c46401;
+}
+.r_header{
+   text-align: right;   
+   height: 103px;
+   padding-left: 0;   
+}
+.r_header::before{
+   content: "";
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+   text-align: right;
+}
+nav{
+   display: inline-block;
+   vertical-align: middle;
+   margin-top: 10px; 
+}
+
+nav ul{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   overflow: hidden;
+
+}
+nav ul:first-child{
+   margin: 0;
+}
+nav ul li{
+   text-align: right;
+   float: left;
+   margin-left: 10px;   
+}
+
+nav span{
+   font-family: "Georgia";
+   font-weight: bold;
+   font-size: 14px;
+   color: #666666;  
+}
+nav ul li a{
+   font-family: "Tahoma";
+   font-size:  11px;
+   color: #b7b7b7;
+   display: block;
+   text-align: left;
+   line-height: 14px;
+}
+
+a:link, a:visited, a:hover, a:active{
+   text-decoration: none;
+}
+
+
+nav ul li a:hover{
+   color: #9c9c9c;
+
+}
+
+
+.backgr_subhead{
+   position: absolute;
+   height: 360px;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#151515+0,333333+100 */
+background: rgb(21,21,21); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(21,21,21,1) 0%, rgba(51,51,51,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(21,21,21,1) 0%,rgba(51,51,51,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(21,21,21,1) 0%,rgba(51,51,51,1) 100%);
+}
+.backgr_subhead:before, .backgr_subhead:after {
+  content: "";
+  position: absolute;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#151515+0,333333+100 */
+background: rgb(21,21,21); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(21,21,21,1) 0%, rgba(51,51,51,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(21,21,21,1) 0%,rgba(51,51,51,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(21,21,21,1) 0%,rgba(51,51,51,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  top: 0;
+  bottom: 0;
+  width: 9999px;   /* Очень большая ширина */
+}
+.backgr_subhead:before {
+  right: 100%;
+}
+.backgr_subhead:after {
+  left: 100%;
+}
+
+.h_bottom{
+   text-align: center;
+   font-size: 24px;
+   font-family: "Georgia";
+   font-weight: bold;
+   line-height: 32px;   
+}
+
+.slider{
+   margin-top: 25px;
+   margin-bottom: 30px;
+}
+.slider img{
+      background-color: #fff;
+      border-radius: 7px;
+      border: 1px solid #c6c6c6;
+}
+.slider_shadow{
+   display: block;
+   
+}
+
+.col-md-4{
+   padding-right: 20px;
+   padding-bottom: 30px;
+}
+section h2{
+   font-family: "Georgia";
+   font-size: 24px;
+   color: #11719e;
+   line-height: 16px;
+   margin-left: 1px;
+}
+h2 span{
+   font-family: "Helvetica";
+   font-size: 14px;
+   color: #8c8c8c;
+}
+.more{
+   position: relative;
+   font-family: "Helvetica";
+   font-size: 13px;
+   color: #016999;
+   width: 160px;
+   height: 30px;
+   border: 1px solid #d8d8d8;
+   border-radius: 3px;
+   text-align: left;
+   
+background: #e8e8e8; /* Old browsers */
+background: -moz-linear-gradient(left,  #e8e8e8 0%, #f7f7f7 25%, #e8e8e8 48%, #e8e8e8 86%, #eeeeee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #e8e8e8 0%,#f7f7f7 25%,#e8e8e8 48%,#e8e8e8 86%,#eeeeee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #e8e8e8 0%,#f7f7f7 25%,#e8e8e8 48%,#e8e8e8 86%,#eeeeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.more{
+   text-align: right;
+   vertical-align: middle;
+}
+
+.more::before, .more::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 7px rgba(0,0,0,0.9);
+    top: 4px;
+    bottom: 3px;
+    left: 7px;
+    right: 86px;
+    border-radius: 148px / 29px;
+}
+.more:after
+{
+    right:10px;
+    left:auto;
+    transform:skew(8deg) rotate(3deg);
+}
+.more span {
+   display: block;
+   float: left;
+}
+
+.divider{
+   text-align: center;
+}
+
+.txt_img{
+   position: relative;
+   display: inline-block;
+   border: 1px solid #e1e1e1;
+   border-radius: 3px;
+   padding: 5px;
+   background: #f3f3f3;
+   margin: 5px 0 15px 0;     
+}
+.txt_img::before, .txt_img::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 7px rgba(0,0,0,0.9);
+    top: 1px;
+    bottom: 0px;
+    left: 7px;
+    right: 7px;
+    border-radius: 151px / 8px;
+}
+.txt_img:after
+{
+    right:10px;
+    left:auto;
+    transform:skew(8deg) rotate(3deg);
+}
+h3{
+	font-family: "Georgia";
+	font-size: 	18px;
+	color: #444444;
+	border-bottom: 1px dashed #d3d3d3;
+	padding: 7px 0 6px 0;
+}
+.content_bottom p{
+	font-family: "Helvetica";
+	font-size: 	12px;
+	color: #444444;
+	line-height: 15px;	
+}
+.social_buttons{
+	text-align: justify;
+	line-height: 0;
+	font-size: 	0;
+	
+}
+.social_buttons:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height: 0px;
+}
+.s_button{
+	margin-top: -6px;
+	width: 56px;
+	height: 56px;
+	overflow: visible;
+	display: inline-block;
+	background: url(../img/social_iconset.png) no-repeat -1px -2px;
+}
+
+.s_button:nth-child(2){
+	background-position: -63px -2px;
+}
+.s_button:nth-child(3){
+	background-position: -125px -2px;
+}
+.s_button:nth-child(4){
+	background-position: -186px -2px;
+}
+.s_button:nth-child(5){
+	background-position: -247px -2px;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	padding: 9px 10px;
+	border: 1px solid #cfcfcf;
+	border-radius: 3px;
+	margin-bottom: 16px;
+	font-family: "Verdana";
+	font-size: 10px;
+}
+input[type="text"] {
+	margin-top: 3px;
+}
+textarea {
+	resize: none;
+	height: 135px;
+	margin-bottom: 14px;
+}
+.btn__submit{
+	display: inline-block;
+	position: relative;
+	border: 1px solid #004a80;
+	border-radius: 5px;
+}
+.btn__submit_content {
+	cursor: pointer;
+	position: relative;
+	width: 163px;
+	height: 32px;
+	border: none;
+	text-align: left;
+	padding-left: 12px;
+	font-family: 	"Georgia";
+	font-size: 	13px;
+	border: 1px solid #5590be;
+	border-radius: 4px;
+	color: #fff;
+	z-index: -9999;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#426f9c+2,3e6c9a+49,306193+51,306193+100 */
+background: #426f9c; /* Old browsers */
+background: -moz-linear-gradient(top,  #426f9c 2%, #3e6c9a 49%, #306193 51%, #306193 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #426f9c 2%,#3e6c9a 49%,#306193 51%,#306193 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #426f9c 2%,#3e6c9a 49%,#306193 51%,#306193 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.btn__submit_content:hover{
+	border: 5px solid black;
+}
+.btn__submit>img{
+	position: absolute;
+	top:12px;
+	right: 8px;
+}
+h4{
+	font-family: "Gill Sans MT";
+	font-weight: 	bold;
+	font-size: 	18px;
+	color: #444444;
+	border-bottom: 1px dashed #d3d3d3;
+	padding: 7px 0 6px 0;
+	margin-top: 30px;
+}
+.news_img{
+	float: left; 
+	padding: 4px;
+	border: 1px solid #cfcfcf;
+	-webkit-border-radius: 	3px;
+	-moz-border-radius: 3px;	
+	border-radius: 3px;
+	margin-right: 7px;
+	margin-bottom: 	10px;	
+}
+.divider_dotted{
+	border-bottom: 1px dashed #d3d3d3;
+	margin: 10px 0 16px 0;
+
+}
+.news p{
+		padding: 0;
+		margin: 0;	
+	
+}
+
+.footer{
+	font-family: 	"Helvetica";
+	font-size: 	11px;
+	color: #999999;
+	padding-top: 25px;
+	line-height: 20px;
+}
+
+.backgr_footer_line{
+   position: absolute;
+   background-color: #4c4c4c;
+   height: 10px;
+   z-index: 10;
+}
+.backgr_footer_line:before, .backgr_footer_line:after {
+  content: "";
+  position: absolute;
+  background-color: #4c4c4c;  /* Соответствует фону элемента h2 */
+  top: 0;
+  bottom: 0;
+  width: 9999px;   /* Очень большая ширина */
+}
+.backgr_footer_line:before {
+  right: 100%;
+}
+.backgr_footer_line:after {
+  left: 100%;
+}
+
+.backgr_footer{
+	margin-top: 10px;
+   position: absolute;
+   background-color: #333333;
+   height: 183px;
+}
+.backgr_footer:before, .backgr_footer:after {
+  content: "";
+  position: absolute;
+  background-color: #333333;  /* Соответствует фону элемента h2 */
+  top: 0;
+  bottom: 0;
+  width: 9999px;   /* Очень большая ширина */
+}
+.backgr_footer:before {
+  right: 100%;
+}
+.backgr_footer:after {
+  left: 100%;
+}
+
+.footer a{
+	font-family: 	"Helvetica";
+	font-size: 	11px;
+	color: #999999;
+}
+.footer a:hover{
+	color: #ececec;
+}
